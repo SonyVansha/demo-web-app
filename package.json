@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "echo 'Sengaja gagal untuk tes QA' && exit 1",
+    "start": "node -e \"console.log('halo')\""
+    "buildyahaha": "next build",
+    "startyahaha": "next start",
     "audit": "npm audit --omit=dev"
   },
   "dependencies": {
